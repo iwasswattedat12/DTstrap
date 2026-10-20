@@ -1,15 +1,3 @@
---[[
-    DTstrap Custom Escape Menu (In-Game Luau)
-    Black & Gray Gradient Minimalist Edition
-    Features:
-      - Intercepts Escape key via ContextActionService, GuiService & UserInputService
-      - Floating DTstrap quick button for easy toggle
-      - Real-time FPS, Ping, and Place info
-      - Instant Character Reset & Leave Server confirmation modals
-      - Quick Toggles: Fullscreen, Audio Mute, Low Graphics Mode
-      - Pure black/graphite glassmorphism with smooth TweenService animations
-]]
-
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local ContextActionService = game:GetService("ContextActionService")
